@@ -1,0 +1,86 @@
+body{
+   position: relative; 
+   background-image: url(./image/bg3.avif);
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+ 
+
+.content{
+    text-align: left;
+    width: 450px;
+    margin: auto;
+    margin-top: 130px;  
+    /* font-style: times new romen;   */
+}
+
+h1{
+    letter-spacing: 3px;
+}
+
+ 
+
+.ref{
+    color: green;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: rgb(187, 196, 198);
+    padding: 8px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.menu a{
+    margin: 0px 20px 0px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 2px 20px;
+    /* border-radius: 10px; */
+    color: rgb(9, 9, 9);
+    font-style:times new romen;
+
+}
+
+.menu a:hover{
+    background-color: rgb(107, 164, 164);
+    box-shadow: 0px 0px 15px black;
+    color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+ 
+
+.CR{
+    position: absolute;
+    left: 25.5rem;
+    top: 19rem;
+}
+
+.CR > a{
+    border: 2px solid grey;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 30px 40px;
+    color: white ;
+    text-decoration: none;
+    background-color: rgb(92, 90, 90);
+
+}
+
+.CR > a:hover{
+    background-color: rgb(164, 230, 218);
+    color: rgb(16, 17, 20);
+    box-shadow: 0px 0px 15px #19e09a;
+}
+
+.certificate{
+    margin-right: 80px;
+
+}
