@@ -49,11 +49,11 @@ h1{
 }
 
 .menu a:hover{
-    background-color: rgb(107, 164, 164);
+    background-color: rgba(59, 61, 67, 0);
     box-shadow: 0px 0px 15px black;
     color: white;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    border-radius: 15px;
+     
 }
  
 
@@ -64,7 +64,7 @@ h1{
 }
 
 .CR > a{
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     padding: 30px 40px;
@@ -75,9 +75,9 @@ h1{
 }
 
 .CR > a:hover{
-    background-color: rgb(164, 230, 218);
-    color: rgb(16, 17, 20);
-    box-shadow: 0px 0px 15px #19e09a;
+    background-color: rgb(122, 124, 123);
+    color: rgb(241, 242, 246);
+     
 }
 
 .certificate{
